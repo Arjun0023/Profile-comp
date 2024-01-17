@@ -1,0 +1,30 @@
+.Card {
+    width: 300px;
+    height: 480px;
+    background: rgb(145, 11, 169);
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 1px black;
+}
+
+.upper-container {
+    text-align: center;
+    background: -moz-linear-gradient(to left, #1b4f69,rgb(127, 18, 177));
+}
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%; /* Optional: Apply a border-radius for a circular image */
+  }
+  
+  .lower-container {
+    text-align: center;
+  }
+  
