@@ -1,20 +1,16 @@
-// src/App.js
-import React from 'react';
-import Profile from './Profile';
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import UserProfile from './Components/Assets/ProfileCard/ProfileCard'
 
-const App = () => {
-  const user = {
-    name: 'John Doe',
-    age: 25,
-    bio: 'A passionate developer.'
-  };
 
-  return (
-    <div>
-      <h1>My App</h1>
-      <Profile {...user} />
-    </div>
-  );
-};
+function App(){
+  return(
+      <div className = "App">
+      <UserProfile/>
+      </div>
+  )
+}
 
-export default App;
+export default UserProfile
