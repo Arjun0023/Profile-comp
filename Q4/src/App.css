@@ -1,0 +1,42 @@
+body{
+  font-family: 'Courier New', Courier, monospace ,sans-serif;
+  background-color: rgb(58, 55, 55);
+}
+
+.container{
+  max-width: 400px;
+  margin: 50px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgb(161, 95, 95);
+}
+
+.label{
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input{
+  width: 100%;
+  padding: auto;
+  box-sizing: border-box;
+  margin-bottom: auto;
+}
+
+.button {
+  background-color: #d81313; /* Set a black background color for the button */
+  color: #8f0000; /* Set a white color for the button text */
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #333; /* Darken the button color on hover */
+}
+
+.paragraph {
+  margin-top: 20px;
+  color: #666; /* Set a grey color for the paragraph text */
+}
